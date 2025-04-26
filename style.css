@@ -1,6 +1,11 @@
 /* Base Styles */
 /* For small screens (like mobile devices) */
 @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
   .your-video-class {
     width: 100%;
     height: auto;
@@ -27,7 +32,16 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+  .navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.navbar a {
+  padding: 10px;
+  text-decoration: none;
+}
   body {
     font-family: 'Poppins', sans-serif;
     background-color: #121212;
