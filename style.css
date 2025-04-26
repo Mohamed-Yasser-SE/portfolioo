@@ -195,33 +195,23 @@ footer {
 /* Media Queries */
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column;
+    /* flex-direction: column; */ /* هنلغيها */
   }
 
   nav ul {
-    flex-direction: column;
-    align-items: center;
+    /* flex-direction: column; */ /* هنلغيها */
+    justify-content: center;
+    width: 100%;
   }
 
   nav ul li a {
-    width: 100%;
     font-size: 16px;
-    padding: 12px 0;
+    padding: 10px;
   }
 
   .your-video-class {
     width: 100%;
     height: auto;
-  }
-  a {
-    color: #4dd0e1; /* اللون اللبني */
-    text-align: center; /* محاذاة النص في النص */
-    font-family: 'Arial', sans-serif; /* اختيار الخط */
-    font-size: 24px; /* حجم الخط مثل h3 */
-    font-weight: bold; /* جعل الخط بولد */
-    display: block; /* علشان النص يتوسط في الـ div */
-    margin: 0 auto; /* محاذاة الـ div في المنتصف */
-    text-decoration: none; /* إزالة التسطير */
   }
 
   .section {
