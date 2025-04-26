@@ -38,7 +38,16 @@ nav ul {
   margin: 0;
   width: 100%;
 }
-
+a {
+  color: #4dd0e1; /* اللون اللبني */
+  text-align: center; /* محاذاة النص في النص */
+  font-family: 'Arial', sans-serif; /* اختيار الخط */
+  font-size: 24px; /* حجم الخط مثل h3 */
+  font-weight: bold; /* جعل الخط بولد */
+  display: block; /* علشان النص يتوسط في الـ div */
+  margin: 0 auto; /* محاذاة الـ div في المنتصف */
+  text-decoration: none; /* إزالة التسطير */
+}
 nav ul li a {
   text-decoration: none;
   color: #f1f1f1;
